@@ -12,8 +12,8 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		File file = new File("C:\\Windows\\");
-		String regex = "hosts";
+		File file = new File("/home/mattia/Backup Mattia/Skole");
+		String regex = "app-debug.apk";
 		Date start, end;
 
 		//Serial search
