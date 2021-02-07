@@ -28,6 +28,7 @@ public class Main {
 			
 			startTime = System.currentTimeMillis();
 			int parSum = arraySumParallel.parallelArraySum(input);
+
 			endTime = System.currentTimeMillis();
 			System.out.println("parallelArraySum output is " + parSum);
 			System.out.println("parallelArraySum took " + (endTime - startTime) + " milliseconds.");
@@ -36,7 +37,7 @@ public class Main {
 		}
 		
 		//TODO: Compute the speedup
-		
+
 	}
 
 	private static int[] generateArray(int length) {
